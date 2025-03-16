@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const taskInput = document.getElementById("new-task-description");
       const taskValue = taskInput.value.trim();
       
-      if (taskValue === "") return; // stop the addition of empty tasks
-      
+            
       const taskItem = document.createElement("li");
       taskItem.textContent = taskValue;
       
